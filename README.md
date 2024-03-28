@@ -27,22 +27,26 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 
 Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your App Password>` with your MongoDB URL, Gmail address, and App password generated above respectively.
 8. Start the server by running:
-    npm start
+
+    `npm start`
 
 
 
 ### Frontend Setup
 1. Navigate to the `frontend` directory.
 2. Install the required npm packages by running:
-    npm i
+
+    `npm i`
+
 3. Start the frontend application by running:
-    npm start
+
+    `npm start`
 
 
 
 ## Project Description
 
-CityCabbie is a cab booking service that allows users to easily book cabs for their travel needs. Users can select their source and destination cities and view the available cabs along with their prices. After selecting a cab, users can book it, and upon successful booking, they will receive a confirmation email containing all the details of their booking.
+CityCabbie is a cab booking service that allows users to easily book cabs for their travel needs. Users can select their source and destination cities and view the available cabs along with their prices. After selecting a cab, users can book it, and upon successful booking, they will receive a `confirmation email` containing all the details of their booking.
 
 ![CityCabbie Screenshot](screenshot1.png)
 
