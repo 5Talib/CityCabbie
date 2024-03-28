@@ -8,17 +8,23 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
     react version= v18.2.0
 
 ### Backend Setup
-1. Navigate to the `backend` directory.
-2. Install the required npm packages by running:
+1. Go to https://myaccount.google.com/ and in the left sidebar click in Security, find "Signing in to Google", click in 2-Step Verification and enable it.
+2. After enabling 2-Step Verification you'll see another option that is App Passwords. Click on this option.
+3. App passwords, to create a new app password click "Select app" combobox, select Other, define a name and click in Generate. A dialog box will appear with the password.
+4. Generated new app password, replace the password you entered in the code with the generated app password
+5. Navigate to the `backend` directory.
+6. Install the required npm packages by running:
     npm i
-3. Create a `.env` file in the `backend` directory and add the following details:
+7. Create a `.env` file in the `backend` directory and add the following details:
+
     MONGO_URI = <MongoDB URL>
 
     Email_User = <Your Gmail Address>
 
     Email_Pass = <Your App Password>
+
 Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your Gmail Password>` with your MongoDB URL, Gmail address, and Gmail password respectively.
-4. Start the server by running:
+8. Start the server by running:
     npm start
 
 
