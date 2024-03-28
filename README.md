@@ -11,7 +11,7 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 1. Go to https://myaccount.google.com/ and in the left sidebar click in Security, find "Signing in to Google", click in 2-Step Verification and enable it.
 2. After enabling 2-Step Verification you'll see another option that is App Passwords. Click on this option.
 3. App passwords, to create a new app password click "Select app" combobox, select Other, define a name and click in Generate. A dialog box will appear with the password.
-4. Generated new app password, replace the password you entered in the code with the generated app password
+4. Generated new app password, add this password in the following format in .env file.
 5. Navigate to the `backend` directory.
 6. Install the required npm packages by running:
     npm i
@@ -23,7 +23,7 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 
     Email_Pass = <Your App Password>
 
-Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your Gmail Password>` with your MongoDB URL, Gmail address, and Gmail password respectively.
+Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your App Password>` with your MongoDB URL, Gmail address, and App password generated above respectively.
 8. Start the server by running:
     npm start
 
