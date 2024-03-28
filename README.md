@@ -14,7 +14,9 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 4. Generated new app password, add this password in the following format in .env file.
 5. Navigate to the `backend` directory.
 6. Install the required npm packages by running:
+
     npm i
+    
 7. Create a `.env` file in the `backend` directory and add the following details:
 
     MONGO_URI = <MongoDB URL>
