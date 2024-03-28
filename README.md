@@ -15,15 +15,15 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 5. Navigate to the `backend` directory.
 6. Install the required npm packages by running:
 
-    npm i
-    
+    `npm i`
+
 7. Create a `.env` file in the `backend` directory and add the following details:
 
-    MONGO_URI = <MongoDB URL>
+    `MONGO_URI = <MongoDB URL>`
 
-    Email_User = <Your Gmail Address>
+    `Email_User = <Your Gmail Address>`
 
-    Email_Pass = <Your App Password>
+    `Email_Pass = <Your App Password>`
 
 Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your App Password>` with your MongoDB URL, Gmail address, and App password generated above respectively.
 8. Start the server by running:
