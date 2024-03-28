@@ -10,6 +10,10 @@ const PORT = 5000 || process.env.port;
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req,res)=>{
+  res.send("You are on backend server");
+})
+
 app.use("/api/v1", route);
 
 connectDB().then(() => {
