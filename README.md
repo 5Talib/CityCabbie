@@ -28,7 +28,7 @@ Welcome to CityCabbie, your one-stop solution for hassle-free cab booking. With 
 Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your App Password>` with your MongoDB URL, Gmail address, and App password generated above respectively.
 8. Start the server by running:
 
-    `npm start`
+    npm start
 
 
 
@@ -38,9 +38,12 @@ Replace `<MongoDB URL>`, `<Your Gmail Address>`, and `<Your App Password>` with 
 
     `npm i`
 
+
 3. Start the frontend application by running:
 
     `npm start`
+
+
 
 
 
